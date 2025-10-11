@@ -7,7 +7,7 @@ This project demonstrates the automation of a full CI/CD workflow using GitHub A
 
 ## ⚙️ CI/CD Pipeline Overview
 1. **Build:** Docker image is built automatically when code is pushed.
-2. **Test:** (Optional) Run simple tests or ensure container starts successfully.
+2. **Test:** (Optional) Run simple tests or ensure the container starts successfully.
 3. **Push:** The image is pushed to Docker Hub 
 4. **Deploy:** The image is deployed to AWS EC2 via SSH.
 
